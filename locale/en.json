@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Document review",
+    "description": "Comment on selected text inside the right-sidebar Markdown preview, then send every pending comment to the Agent as one message."
+  }
+}

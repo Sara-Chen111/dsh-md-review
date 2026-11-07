@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "文档批注",
+    "description": "在右侧 Markdown 预览里选中文字直接写修改意见，最后合并成一条消息发给 Agent。"
+  }
+}

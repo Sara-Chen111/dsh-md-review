@@ -1,0 +1,47 @@
+{
+  "name": "dsh-md-review",
+  "version": "1.0.0",
+  "description": "Review Markdown files inside the DeepSeek Harness right-sidebar preview: select text, leave comments, send them all to the agent as one message.",
+  "license": "MIT",
+  "author": "Sara Chen",
+  "homepage": "https://github.com/Sara-Chen111/dsh-md-review#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sara-Chen111/dsh-md-review.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sara-Chen111/dsh-md-review/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "markdown",
+    "review",
+    "comments",
+    "document-preview",
+    "cordis"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

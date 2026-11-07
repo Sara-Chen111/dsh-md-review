@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install build tool
+        run: npm install --no-save --no-package-lock esbuild
+
+      - name: Build the client bundle
+        run: node build.mjs
+
+      - name: Verify the committed bundle matches the source
+        run: git diff --exit-code client.js
+
+      - name: Run unit tests
+        run: node --test test/

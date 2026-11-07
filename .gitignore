@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# build/test scratch
+.tmp/
+*.log
+coverage/
+
+# macOS / external volume artifacts
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# internal planning docs and the incomplete standalone demo, kept local
+SPEC.md
+demo/

@@ -1,0 +1,4 @@
+# Inserts this bundle's Host row into the active dsh profile.
+- insert:
+    - id: md-review
+      name: 'dsh-md-review'
