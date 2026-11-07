@@ -2,6 +2,7 @@
 
 > 在 DeepSeek Harness 右侧栏的 Markdown 预览里直接批注：选中一段文字 → 写下修改意见 → 文档里留下高亮和编号 → 最后一次性发给 Agent。
 
+[![CI](https://github.com/Sara-Chen111/dsh-md-review/actions/workflows/ci.yml/badge.svg)](https://github.com/Sara-Chen111/dsh-md-review/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
 [![DSH plugin](https://img.shields.io/badge/DeepSeek%20Harness-plugin-4f6ef7.svg)](https://github.com/topics/dsh-plugin)
 [![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)](https://github.com/Sara-Chen111/dsh-md-review/releases)
